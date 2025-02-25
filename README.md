@@ -10,4 +10,4 @@ Ini adalah repositori untuk dokumentasi belajar [Testing Menggunakan Pest](https
 - Run command `php artisan key:generate`
 - Run command `php -r "file_exists('database/database.sqlite') || touch('database/database.sqlite');"`
 - Run command `php artisan migrate`
-- Run command `php artisan serve`, lalu buka halamannya di browser.
+- Run command `./vendor/bin/pest` untuk run testing
